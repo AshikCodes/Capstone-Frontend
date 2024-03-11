@@ -25,7 +25,7 @@ const locationFrequencies = data.reduce((acc, curr) => {
   
   const COLORS = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042', '#CF9FFF'];
 
-const ChartsComponent = () => {
+const Dashboard = () => {
   return (
     <div className="dashboard-main-container">
     <div className='dashboard-container'>
@@ -89,4 +89,4 @@ const ChartsComponent = () => {
   );
 };
 
-export default ChartsComponent;
+export default Dashboard;

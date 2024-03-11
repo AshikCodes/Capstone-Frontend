@@ -3,7 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import { Chart } from "react-google-charts";
 import './App.css'
-import ChartsComponent from './components/ChartComponent';
+import Dashboard from './components/Dashboard';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import BookingPage from './components/BookingPage';
 
@@ -13,7 +13,7 @@ function App() {
   return (
     <>
         <Routes>
-          <Route path='/' element={<ChartsComponent />}/>
+          <Route path='/' element={<Dashboard />}/>
           <Route path='/booking' element={<BookingPage />}/>
         </Routes>
     </>
