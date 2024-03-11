@@ -1,0 +1,141 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+.dashboard-main-container {
+  height: 100vh;
+  width: 100vw;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dashboard-container {
+  /* margin-top: 2em; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.dashboard-item-title {
+  margin-left: 3em;
+  color: rgb(192, 191, 191);
+}
+.right-side-container {
+  margin-top: 7em;
+}
+
+.tiers-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2em;
+  width: 60vw;
+  height: 40vh;
+  margin-bottom: 7em;
+}
+.tier-item {
+  padding: 2em;
+  border-radius: 0.6em;
+  width: 20vw;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color:rgb(38, 199, 183);
+}
+
+.tier-item.selected {
+  background-color:rgb(31, 158, 145) ;
+}
+
+.tier-description {
+  margin-bottom: 2em;
+}
+
+.tier-btn {
+  /* background-color: white; */
+  /* color: black; */
+  background-color: #E0B0FF;
+  cursor: pointer;
+  padding: 1em;
+}
+
+.tier-item.selected .tier-btn {
+  background-color: #8b68a3;
+}
+
+.tier-btn:hover {
+  background-color: #8b68a3;
+}
+
+.booking-main-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+
+.booking-page-container {
+  background-image: url("./haikei_background.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  aspect-ratio: 3/2;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tier-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
